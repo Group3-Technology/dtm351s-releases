@@ -8,6 +8,7 @@ the **Group3 DTM 351-S 3-axis digital teslameter** over serial connections.
 | File | Platform |
 |------|----------|
 | `G3_DTM351_Control-macos.zip` | macOS 15 (Sequoia) or newer, Apple Silicon (M1 or later) |
+| `G3_DTM351_Control-macos-intel.zip` | macOS 15 (Sequoia) or newer, Intel |
 | `G3_DTM351_Control-windows.zip` | Windows 10/11 (64-bit) |
 | `SHA256SUMS.txt` | Checksums for the above |
 
@@ -48,7 +49,12 @@ one-time setting per adapter.
 
 ### macOS
 
-1. Unzip `G3_DTM351_Control-macos.zip` (double-click it in Finder).
+1. Pick the download for your Mac — Apple menu → **About This Mac** shows
+   the chip or processor:
+   - **Apple M1 or later:** `G3_DTM351_Control-macos.zip`
+   - **Intel:** `G3_DTM351_Control-macos-intel.zip`
+
+   Unzip it (double-click it in Finder).
 2. Drag **`G3_DTM351_Control.app`** to your **Applications** folder.
 3. Approve it on first launch:
 
